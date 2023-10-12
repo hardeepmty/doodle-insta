@@ -1,0 +1,323 @@
+body{
+  /* background-color: rgb(36, 38, 41); */
+  background-color: black;
+}
+
+.hel input{
+   width: 85%;
+}
+.bigbody{
+  margin-left: 15%;
+  margin-top: 3.5%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: black;
+}
+.app{
+  background-color: black;
+  width: 200%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  /* margin-top: 15%;
+  margin-left: 27%; */
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+  background-color: black ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card{
+  align-items: center;
+  justify-content: center;
+  padding: 2%;
+  color: white;
+  background-color: black;
+  border-color: white;
+  width: 100%;
+}
+
+a{
+  color: blue;
+}
+
+.desk{
+  width: 500px;
+}
+
+.heading{
+  padding: 0px;
+  display: flex;
+  align-items: flex-start;
+}
+.logo{
+  width: 150px;
+}
+.page{
+  display: flex;
+  background-color: black;
+  margin-top: 5%;
+}
+button{
+  opacity: 80%;
+  padding: 3%;
+  border-radius: 3%;
+  color: rgb(246, 244, 243);
+  border: none;
+  background-color: rgb(89, 117, 192);
+}
+button:hover{
+  cursor: pointer;
+  opacity: 100%;
+}
+
+a:hover{
+  cursor: pointer;
+}
+
+input{
+  padding: 2%;
+}
+
+input:hover{
+  border-color: rgb(41, 110, 170);
+}
+
+.message, .text{
+  color: red;
+}
+
+.alert{
+  color: rgb(140, 151, 151);
+}
+
+.list{
+  color: white;
+}
+
+ 
+
+.profilebtn{
+  padding: 5%;
+  list-style: none;
+}
+
+.listmenu{
+  margin-left: -50%;
+  display: flex;
+  gap: 10%;
+}
+
+.stories{
+  margin-top: 3%;
+  display: flex;
+  margin-left: 30%;
+
+  /* overflow-x: auto;
+  white-space: nowrap;
+  width: 100%; */
+}
+
+
+.post{
+  margin-left: 30%;
+  width: 40%;
+}
+
+.story{
+  background-color: brown;
+  padding: 0.5%;
+  border-radius: 100%;
+  
+  /* display: inline-block;
+  margin-right: 10px; */
+}
+
+.pictures{
+  margin-left: 3%;
+}
+
+.feed h1{
+  color: wheat;
+}
+.feed{
+  display: flex;
+}
+
+.items{
+  padding-left: 1%;
+  line-height: 409%;
+  background-color: black;
+  box-shadow: 1px 0px 1px rgb(249, 237, 237);
+  color: white;
+  position: fixed;
+  top: 9%;
+  left: 0;
+  width: 20%;
+  list-style: none;
+}
+.items li{
+  color: white;
+  text-decoration: none;
+  list-style: none;
+}
+
+.navbar{
+  background-color: black;
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.rightbar{
+  border-radius: 2%;
+  background-color: black;
+  margin-right: 3%;
+  width: 70%;
+  overflow-x: hidden;
+}
+
+.search-container{
+  gap: 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-input{
+  width: 70%;
+  border-style: none;
+  background-color: gray;
+  color: black;
+  margin-top: 3%;
+  border-radius: 5%;
+  padding: 2%;
+}
+.search-button{
+  background-color: white;
+  color: black;
+  margin-top: 3%;
+  padding: 2%;
+}
+.abc h3{
+  color: white;
+  margin-left: 5%;
+  margin-top: 3%;
+}
+
+.dir{
+  margin-left: 10%;
+  padding: 2%;
+}
+.dir button{
+  max-width: 500px;
+  border-radius: 10%;
+  padding: 0%;
+  color: black;
+  background-color: white;
+}
+
+.class{
+  margin-bottom: 3%;
+}
+.abc{
+  overflow-y: visible;
+}
+
+.basiclist{
+  margin-top: 5%;
+}
+
+#followers{
+  max-height: 917px;
+  overflow-y: scroll;
+}
+
+::-webkit-scrollbar{
+  width: 10px;
+  background-color: gray;
+}
+
+
+
+
+@media (min-width: 1001px) {
+  /* Hide the footer on screens wider than 1000px */
+  .instagram-footer {
+    display: none;
+  }
+}
+
+@media all and (max-width:1000px){
+  .page{
+    margin-left: 7%;
+    display: block;
+    width: 450px;
+  }
+  .card{
+    margin-left: 5%;
+    width: 70%;
+    display: block;
+    align-items: center;
+    justify-content: center;
+  }
+  .desk{
+    width: 400px;
+  }
+  .app{
+    box-shadow: none;
+  }
+  .abc{
+    display: none;
+  }
+  .items{
+    position: relative;
+    width: 10%;
+    box-shadow: none;
+  }
+  .addon{
+    display: none;
+  }
+  .navbar{
+    width: 200%;
+  }
+  .post{
+    margin-left: -18%;
+    width: 150%;
+    margin-bottom: 35%;
+  }
+  .rightbar{
+    width: 0%;
+  }
+
+  .dir button{
+    display: none;
+  }
+  .stories{
+    width: 200%;
+    margin-left: 0%;
+  }
+  .sidebar-navigation li.nav-item {
+    display: none;
+  }
+  .explore{
+    display: none;
+  }
+  .instagram-footer {
+    height: 2000px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-top: 1px solid #ddd;
+    z-index: 100; /* Ensure it's above other content */
+  } 
+  nav{
+    min-height: 100px;
+  }
+  nav h2{
+    font-size: 40px;
+  }
+}
